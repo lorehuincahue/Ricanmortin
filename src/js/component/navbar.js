@@ -1,15 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import RyMLogoImage from "../../img/rymlogo.jpg";
 
 export const Navbar = () => {
 	return (
-		<nav className="navbar navbar-light bg-light mb-3">
+		<nav className="navbar navbar-black bg-black mb-3 center">
 			<Link to="/">
-				<span className="navbar-brand mb-0 h1">React Boilerplate</span>
+			<img src={RyMLogoImage} />
 			</Link>
 			<div className="ml-auto">
 				<Link to="/demo">
-					<button className="btn btn-primary">Check the Context in action</button>
+					<button className="btn btn-light" style= {{height: "100px"}}>Favoritos</button>
 				</Link>
 			</div>
 		</nav>
