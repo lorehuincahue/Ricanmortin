@@ -11,6 +11,8 @@ import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
 import { Personajes } from "./views/personajes";
 import { Episodios } from "./views/episodios";
+import { SingleEpisodios } from "./views/singleEpisodios";
+import { SinglePersonajes } from "./views/singlePersonajes";
 
 //create your first component
 const Layout = () => {
