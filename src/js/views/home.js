@@ -16,10 +16,3 @@ export const Home = () => (
 
 	);
 
-
-  /*<div className="text-center mt-5" style={{ backgroundColor: "black" }}>
-    <p>
-      <img src={personajesImage} style={{ width: "500px" }} />
-      <img src={episodiosImage} style={{ width: "500px" }} />
-    </p>
-  </div>*/
