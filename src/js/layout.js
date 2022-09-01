@@ -29,27 +29,18 @@ const Layout = () => {
 						<Route exact path="/">
 							<Home />
 						</Route>
-
-
-
 						<Route exact path="/personajes">
 							<Personajes />
 						</Route>
 						<Route exact path="/episodios">
 							<Episodios />
 						</Route>
-
-
-
 						<Route exact path="/singlePersonajes/:theid">
 							<Single />
 						</Route>
 						<Route exact path="/singleEpisodios/:theid">
 							<Single />
 						</Route>
-
-
-
 						<Route>
 							<h1>Not found!</h1>
 						</Route>
