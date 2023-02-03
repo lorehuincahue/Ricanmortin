@@ -35,10 +35,13 @@ const Layout = () => {
 						<Route exact path="/episodios">
 							<Episodios />
 						</Route>
-						<Route exact path="/singlePersonajes/:theid">
+						<Route exact path="/personajes/detail/:epid">
 							<Single />
 						</Route>
-						<Route exact path="/singleEpisodios/:theid">
+						<Route exact path="/episodios/detail/:charid">
+							<Single />
+						</Route>
+						<Route exact path="/favoritos">
 							<Single />
 						</Route>
 						<Route>

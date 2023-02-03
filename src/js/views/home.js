@@ -5,14 +5,22 @@ import "../../styles/home.css";
 import { Card } from "../component/card";
 
 export const Home = () => (
-
-<div className="text-center mt-5" style={{width:"500px", backgroundColor: "black"}}>
-<h1></h1>
-
-<Card titulo="Personajes" button="Personajes >>" ruta='/personajes' img={personajesImage} />
-<Card titulo="Episodios" button="Episodios >>" ruta='/episodios' img={episodiosImage}/>
-
-</div>
-
-	);
-
+  <div class="row">
+    <div
+      className="container text-center"
+      style={{ width: "600px", backgroundColor: "black" }}
+    >
+      <div class="col-10">
+        <Card
+          titulo="Personajes"
+          style="bg-black"
+          ruta="/personajes"
+          img={personajesImage}
+        />
+      </div>
+      <div class="col-10">
+        <Card titulo="Episodios" ruta="/episodios" img={episodiosImage} />
+      </div>
+    </div>
+  </div>
+);
